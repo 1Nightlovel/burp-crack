@@ -12,9 +12,9 @@ echo "Installing Dependencies..."
 sudo apt install git wget openjdk-21-jre openjdk-22-jre openjdk-23-jre -y
 
 # Move folder
-mkdir Burpsuite-Professional
 
-cd Burpsuite-Professional
+git clone https://github.com/1Nightlovel/burp-crack
+cd burp-crack
 
 # Download Burpsuite Professional Latest.
 Link="https://portswigger.net/burp/releases/startdownload?product=desktop&version=2026.4.3&type=Jar"
